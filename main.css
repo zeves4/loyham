@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 0 15px 0 15px;
+}
+.selects{
+    display: flex;
+    justify-content: end;
+}
+
+#font{
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+#color{
+    padding: 5px 10px;
+}
+.inputting{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.inputting #input{
+    width: 88%;
+    border: 2px solid #ccc;
+    outline: none !important;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.inputting #btn{
+    width: 10%;
+    height: 100%;
+    display: block;
+    font-size: 18px;
+}
+
+#container{
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+}
+#container .box{
+    margin-top: 5px;
+    background-color: #0d0335;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+#container .box .action {
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px; 
+    transition: 0.3s;
+    
+}
+#container .box .action:hover{
+    color: red;
+    cursor: pointer;
+}
